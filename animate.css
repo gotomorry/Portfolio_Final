@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Prompt';
+}
+
+:root {
+  --animate-duration: 100ms;   /*애니메이션(ani) 실행 시간*/
+  --animate-delay: 200s;   /*ani 실행 지연 시간 설정*/
+}
+
+div {
+  text-align: center;
+  margin: 10vw;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 24px;
+  line-height: 1;
+  text-transform: uppercase;
+  -webkit-text-stroke: 1px #000;
+  -webkit-text-fill-color: transparent;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
